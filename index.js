@@ -77,7 +77,7 @@
 
 // let age = 25;
 
-// console.log(typeof age);
+// console.log(typeof age); // number
 
 // let cgpa = 6.78;
 
@@ -264,9 +264,9 @@
         - Voter ID
 */
 
-let age = 19;
-let hasAadharCard = false;
-let hasVoterID = false;
+// let age = 19;
+// let hasAadharCard = false;
+// let hasVoterID = false;
 
 // console.log(age >= 18, hasAadharCard == true, hasVoterID == true);
 
@@ -281,5 +281,162 @@ let hasVoterID = false;
 
 // to check if the person has one of the ids
 // console.log(hasAadharCard == true && hasVoterID == true); // this tells that the person should have an aadhard card and a voter id -- both
+// let age = 16;
+// let hasAadharCard = true;
+// let hasVoterID = false;
 
-console.log(hasAadharCard == true || hasVoterID == true);
+// // check if age is greater than or equal to 18 AND whether if the person has either an aadhar card OR a voter ID.
+// if ((age >= 18) && (hasAadharCard == true || hasVoterID == true)) {
+//     console.log("The person is eligible to vote");
+// } else {
+//     console.log("The person isn't eligible to vote");
+// }
+
+// Given a number, check and print if the number is a positive number or a negative number.
+
+// let number = 6;
+
+// // check if the number is a positive number
+// if (number > 0) {
+//     console.log('number is a positive number');
+// } else {
+//     // the number definitely not a positive number
+//     // it can be a negative number
+//     console.log('number is a negative number');
+// }
+
+// Given two numbers, check and print the smallest number.
+// let firstNumber = 5;
+// let secondNumber = 6;
+
+// if (firstNumber < secondNumber) {
+//     console.log(firstNumber, 'is the smallest number');
+// } else {
+//     console.log(secondNumber, 'is the smallest number');
+// }
+
+// Problem: Find the smallest number
+// Nested if...else statements
+
+// let firstNumber = 5;
+// let secondNumber = 6;
+// let thirdNumber = 4;
+
+// if (firstNumber < secondNumber && firstNumber < thirdNumber) {
+//     // firstNumber is the smallest number
+//     console.log(firstNumber, 'is the smallest number');
+// } else {
+//     /*
+//         firstNumber < secondNumber && firstNumber < thirdNumber
+
+//         => total result is a FALSE
+
+//         Possibilities:
+
+//         firstNumber < secondNumber -> FALSE or 
+//         firstNumber < thirdNumber -> FALSE or
+//         both firstNumber < secondNumber and firstNumber < thirdNumber -> FALSE
+
+//         firstNumber > secondNumber -> firstNumber cannot be the smallest
+//         firstNumber > thirdNumber -> firstNumber cannot be the smallest
+
+//         -> firstNumber cannot be the smallest number but either the secondNumber or the thirdNumber
+//         could be the smallest number.
+
+//         secondNumber < thirdNumber
+//             -> True: secondNumber is the smallest number
+
+//             -> False: thirdNumber is the smallest number.
+//     */
+//     if (secondNumber < thirdNumber) {
+//         console.log(secondNumber, 'is the smallest number');
+//     } else {
+//         console.log(thirdNumber, 'is the smallest number');
+//     }
+// }
+
+/*
+    Branching Statements or Decision Making Statements or Conditional Statements
+
+    Types:
+
+    1. if statement
+    2. if...else statement
+    3. Nested if...else statement
+    4. if...else if...else statement
+*/
+
+// let firstNumber = 5000;
+// let secondNumber = 621000;
+// let thirdNumber = 41;
+
+// if (firstNumber < secondNumber && firstNumber < thirdNumber) {
+//     console.log(firstNumber, 'is the smallest number');
+// } else if (secondNumber < thirdNumber) {
+//     console.log(secondNumber, 'is the smallest number');
+// } else {
+//     console.log(thirdNumber, 'is the smallest number');
+// }
+
+// Given a number, check and print if the number is a positive number or a negative number or a zero
+
+// let number = 5;
+
+// // check if the number is < 0 and > 0
+// if (number < 0) {
+//     console.log("negative")
+// } else if (number == 0) {
+//     // number can be positive or zero
+//     console.log("zero")
+// } else {
+//     console.log("positive")
+// }
+
+// let number = -6;
+
+// // to check if the number is a positive number or a negative number
+// // switch...case statement
+// // if (number > 0) {
+// //     console.log(number, 'is positive');
+// // } else {
+// //     console.log(number, 'is negative');
+// // }
+
+// switch (number > 0) {
+//     // we write cases
+//     // cases are the possible results or values of the condition above
+//     case true:
+//         console.log(number, 'is positive');
+//         break;
+//     case false:
+//         console.log(number, 'is negative');
+//         break;
+// }
+
+/*
+    Looping Statements
+
+    execute either a statement or a block of statements continuously for multiple times either as long as a condition is satisfied or a condition is met.
+
+    1. while loop
+    2. for loop
+*/
+
+/*
+    count = 3
+
+    hello
+    hello
+    hello
+
+    stopping condition: if count reaches 3; count == 3
+    running condition: count != 3 => count < 3, count > 3
+*/
+
+let count = 0; // means that we have not printed any hello statement yet
+// as long as count != 3, keep on executing the statements inside the block again and again.
+// checks condition, decides to run or close the loop, executes the statement if decision is to run.
+while (count < 3) {
+    console.log('hello');
+    count = count + 1;
+}
