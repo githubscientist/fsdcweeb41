@@ -433,10 +433,276 @@
     running condition: count != 3 => count < 3, count > 3
 */
 
-let count = 0; // means that we have not printed any hello statement yet
-// as long as count != 3, keep on executing the statements inside the block again and again.
-// checks condition, decides to run or close the loop, executes the statement if decision is to run.
-while (count < 3) {
-    console.log('hello');
-    count = count + 1;
+// let count = 0; // means that we have not printed any hello statement yet
+// // as long as count != 3, keep on executing the statements inside the block again and again.
+// // checks condition, decides to run or close the loop, executes the statement if decision is to run.
+// while (count < 3) {
+//     console.log('hello');
+//     count = count + 1;
+// }
+
+// let number = 0;
+
+// switch (number > 0) {
+//     case true:
+//         // true case block
+//         console.log(number, 'is positive');
+//         break;
+//     case false:
+//         // false case block
+//         // two possibilities -> negative or zero
+//         switch (number < 0) {
+//             case true:
+//                 console.log(number, 'is negative');
+//                 break;
+//             case false:
+//                 console.log(number, 'is a zero');
+//                 break;
+//         }
+//         break;
+// }
+
+// let number = -6;
+
+// if (number > 0) {
+//     // true case block
+//     console.log(number, 'is positive');
+// } else {
+//     // false case block
+//     // two possibilities -> negative or zero
+//     if (number < 0) {
+//         console.log(number, 'is negative');
+//     } else {
+//         console.log(number, 'is a zero');
+//     }
+// }
+
+/*
+    count = 0   hello
+    count = 1   hello
+    count = 2   hello
+    count = 3
+
+    stopping condition: count == 3
+    running condition: count != 3, count < 3
+*/
+// while loop
+// let cnt = 3;
+// while (cnt < 3) {
+//     console.log('hello');
+//     cnt = cnt + 1;
+// }
+
+// for loop
+// for (let count = 0; count < 5; count++) {
+//     console.log('hello');
+// }
+
+
+// do...while loop
+// let count = 0;
+// do {
+//     console.log('hello');
+//     count = count + 1;
+// } while (count < 3);
+
+// for (let count = 0; count < 3; count = count + 1) {
+//     console.log('hello');
+// } 
+
+// Problem: Print the first N natural numbers
+
+// let N = 10;
+
+// // output: 1 2 3 4 5 6 7 8 9 10
+
+// let number = 1;
+// while (number <= N) {
+//     console.log(number);
+//     number++;
+//     // if the number reaches 5, i want to break the loop
+//     if (number == 5) {
+//         break;
+//     }
+// }
+
+
+// let N = 10;
+
+// // // output: 1 2 3 4 5 6 7 8 9 10
+
+// let number = 1;
+// while (number <= N) {
+//     // if the number reaches 5, it will skip the following statements (after the continue keyword in the same loop)
+//     if (number == 5) {
+//         number++;
+//         continue;
+//     }
+//     console.log(number);
+//     number++;
+// }
+
+// let number = 1;
+
+// while (number <= 5) {
+//     // when the number reaches more than 3, the loop breaks!
+//     if (number > 3) break;
+//     console.log(number);
+//     number++;
+// }
+
+// let number = 1;
+
+// while (number <= 5) {
+//     // when the number reaches more than 3, the loop breaks!
+//     if (number > 3) {
+//         number++;
+//         continue;
+//     }
+//     console.log(number);
+//     number++;
+// }
+
+
+/*
+    number = 4
+    2<=5 T
+    1
+    2
+    3
+*/
+
+// for (let number = 1; number <= 5; number++) {
+//     // when the number reaches more than 3, the loop breaks!
+//     console.log(number);
+//     if (number == 3) {
+//         break;
+//     }
+// }
+
+// Function
+/*
+    Function is a block of statements which gets executed whenever we call it.
+*/
+
+// 5 -> passing a value or passing an argument
+// the function log is called because of the ()
+// console.log(typeof (5));
+
+/*
+    Function Types: (w.r.t arguments and return values)
+
+    1. function with arguments and with return values.
+    2. function without arguments and with return values.
+    3. function without arguments and without return values.
+    4. function with arguments and without return values.
+
+    Function Types: (logical types)
+
+    1. Library Functions -> functions which are pre-defined in a programming language.
+        e.g., console.log(), etc...
+    2. User-Defined Functions -> functions which are defined by the user/programmer.
+
+    Function Types: (syntax or keywords used/introduced across versions)
+
+    1. Named Function Declaration
+    2. Nameless Function Expression or Anonymous Function Expression
+    3. Arrow Functions (ES6 and above) or Lambda Function
+    4. IIFE - Immediately Invoked Function Expression
+*/
+
+// user defined functions
+// function-keyword function-name(){  }
+// the function will not get executed, until we call it.
+// named function -> we have used function keyword and the function has a name.
+// function sayHello() {
+//     console.log('hello, there!');
+// }
+
+// // function call
+// sayHello();
+
+// ---------------------------------
+
+// // named function
+// function sayHello() {
+//     console.log('hello, there!');
+// }
+
+// sayHello();
+
+// // ---------------------------------
+
+// // nameless function or anonymous function expression
+// const sayHello = function () {
+//     console.log('hello, there!');
+// }
+
+// sayHello();
+
+// console.log(typeof sayHello);
+
+// ---------------------------------
+
+// arrow function or single line function (provided the function has only one line of code)
+// const sayHello = () => {
+//     console.log('hello, there!');
+// }
+
+// sayHello();
+// anonymous or nameless or arrow or function expression
+// const sayHello = () => console.log('hello, there!');
+
+// sayHello();
+
+// ---------------------------------
+// IIFE: Immediately Invoked Function Expression
+
+// (function () {
+//     console.log('hello, there!');
+// })();
+
+// (() => {
+//     console.log('hello, there!');
+// })();
+
+// ----------------------------------
+
+// function without arguments and without return value
+// function sum() {
+//     let x = 5;
+//     let y = 6;
+
+//     console.log(x + y);
+// }
+
+// sum();
+
+// // ----------------------------------
+
+// // function with arguments and without return value
+// function sum(x, y) {
+//     console.log(x + y);
+// }
+
+// sum(5, 6);
+
+// // ----------------------------------
+
+// // function with arguments and with return value
+// function sum(x, y) {
+//     return x + y;
+// }
+
+// console.log(sum(5, 6));
+
+// ----------------------------------
+
+// function without arguments and with return value
+function sum() {
+    let x = 5;
+    let y = 6;
+    return x + y;
 }
+
+console.log(sum());
