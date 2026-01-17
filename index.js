@@ -699,10 +699,69 @@
 // ----------------------------------
 
 // function without arguments and with return value
-function sum() {
-    let x = 5;
-    let y = 6;
-    return x + y;
-}
+// function sum() {
+//     let x = 5;
+//     let y = 6;
+//     return x + y;
+// }
 
-console.log(sum());
+// console.log(sum());
+
+// array is a data type or a data structure that allows you to store multiple elements in a variable.
+
+/*
+    let fruits = ['apple', 'banana', 'orange', 'grapes'];
+    indexes         [0]       [1]        [2]      [3]
+
+    fruits[0]
+*/
+
+// let fruits = ['apple', 'banana', 'orange', 'grapes'];
+// let prices = [180, 60, 80, 40];
+// let business = ['guvi', 4, true, '10:00'];
+
+// console.log(fruits); // [ 'apple', 'banana', 'orange', 'grapes' ]
+// console.log(fruits[0]); // apple
+// console.log(fruits[3]);
+
+
+// let numbers = [4, 5, 2, 3, 1];
+
+// console.log(numbers[0]);
+
+// insert a value into the array numbers
+// methods: are the functions which are pre-written and available in the library
+
+// push method inserts the number to the end of the array
+// numbers.push(6);
+
+// // numbers.push(10);
+
+// // console.log(numbers);
+
+// const animals = ["pigs", "goats", "sheep"];
+
+// // push - insert one or more elements to the end of the array
+// animals.push('camels');
+
+// // unshift - insert one or more elements to the beginning of the array
+// animals.unshift('elephants');
+
+// // pop - removes only one element from the end of the array
+// animals.pop();
+
+// animals.pop();
+
+// // shift - removes the first element from the array
+// animals.shift();
+
+// // insert at any index
+// // ['pigs', 'goats']
+// //   [0].    [1]
+// // ['pigs', 'camels', 'goats']
+// animals.splice(1, 0, 'camels');
+
+// // 'horses'
+// animals.splice(2, 2, 'horses');
+
+// console.log(animals);
