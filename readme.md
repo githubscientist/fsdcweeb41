@@ -32,3 +32,9 @@ The browser has:
 1. ID Selector
 2. Class Selector
 3. Element Selector
+
+w.r.t the method of applying CSS:
+
+1. Inline CSS
+2. Internal CSS
+3. External CSS
