@@ -1,31 +1,17 @@
-## Block Level Elements Vs Inline Elements
+## CSS - Cascading Style Sheets
 
-### Block Level Elements
+- CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML.
 
-Block level elements are HTML elements that start on a new line and take up the full width available.
+- It allows you to control the layout, colors, fonts, and overall visual appearance of web pages.
 
-Example Tags:
+### There are three main ways to apply CSS to HTML documents:
 
-- `<div>`
-- `<h1>` to `<h6>`
-- `<p>`
-- `<ul>`, `<ol>`, `<li>`
-- `<section>`
-- `<article>`
-- `<header>`
-- `<footer>`
+1. Inline CSS
+2. Internal CSS
+3. External CSS
 
-### Inline Elements
+The browser has:
 
-Inline elements do not start on a new line and only take up as much width as necessary.
-
-Example Tags:
-
-- `<span>`
-- `<a>`
-- `<strong>`
-- `<em>`
-- `<img>`
-- `<br>`
-- `<input>`
-- `<label>`
+1. HTML Parser: Parses the HTML document and creates the DOM (Document Object Model) tree.
+2. CSS Parser: Parses the CSS rules and creates the CSSOM (CSS Object Model) tree.
+3. JavaScript Engine: Executes JavaScript code that can manipulate the DOM and CSSOM.
