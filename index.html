@@ -3,21 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Block Element vs Inline Element</title>
+        <title>HTML Forms</title>
     </head>
     <body>
-        <div>
-            <h1>Hello World!</h1>
-            <h2>Welcome</h2>
-            <p>This is a <span>paragraph</span></p>
-        </div>
+        <center>
+            <h1>Register here</h1>
 
-        <div>
-            <div>
-                <img src="./image1.png" width="200px" />
-            </div>
-            <img src="./image2.png" width="200px" />
-            <img src="./image3.png" width="200px" />
-        </div>
+            <form>
+                <label>
+                    Name
+                    <input type="text" placeholder="Name..." />
+                </label>
+
+                <label>
+                    <input type="checkbox" value="apple" />
+                    Apple
+                </label>
+                <label>
+                    <input type="checkbox" value="orange" />
+                    Orange
+                </label>
+                <label>
+                    <input type="checkbox" value="Grapes" />
+                    Grapes
+                </label>
+
+                <br /><br />
+
+                <label>
+                    <input type="radio" name="sex" />
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="sex" />
+                    Female
+                </label>
+
+                <br /><br />
+
+                <input 
+                    type="date"
+                    min="2026-01-24"
+                />
+
+                <input 
+                    type="datetime-local"
+                />
+
+                <input 
+                    type="color"
+                />
+
+                <input 
+                    type="button"
+                    value="Submit"
+                />
+            </form>
+        </center>
     </body>
 </html>
