@@ -15,3 +15,7 @@ The browser has:
 1. HTML Parser: Parses the HTML document and creates the DOM (Document Object Model) tree.
 2. CSS Parser: Parses the CSS rules and creates the CSSOM (CSS Object Model) tree.
 3. JavaScript Engine: Executes JavaScript code that can manipulate the DOM and CSSOM.
+
+### CSS Selectors
+
+1. Element Selector: Selects all elements of a specific type.
