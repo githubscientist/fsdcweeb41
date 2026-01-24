@@ -19,3 +19,16 @@ The browser has:
 ### CSS Selectors
 
 1. Element Selector: Selects all elements of a specific type.
+2. Class Selector
+   - A same element can have multiple classes.
+   - Multiple elements can share the same class.
+3. ID Selector
+   - An ID should be unique within a page.
+
+### CSS Precedence Order
+
+(From highest to lowest) w.r.t the selector specificity:
+
+1. ID Selector
+2. Class Selector
+3. Element Selector

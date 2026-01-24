@@ -8,15 +8,21 @@
         <!-- Internal Stylesheet -->
         <style>
             /* css selectors */
+            /* highest precendence */
+            #greetingID {
+                color: green;
+            }
+
+            .greetingClass {
+                color: red;
+            }
+
             h1 {
-                color: chocolate; 
-                font-style: italic;
-                text-align: right;
+                color: chocolate !important;
             }
         </style>
     </head>
     <body>
-        <h1>Hello Guest!</h1>
-        <h1>Welcome to my Web Page</h1>
+        <h1 id="greetingID" class="greetingClass">Welcome to my Web Page</h1>
     </body>
 </html>
