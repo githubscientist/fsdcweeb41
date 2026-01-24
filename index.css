@@ -1,14 +1,3 @@
-/* External stylesheet */
-/* css selectors */
-/* highest precendence */
 #greetingID {
     color: green;
-}
-
-.greetingClass {
-    color: red;
-}
-
-h1 {
-    color: chocolate !important;
 }
