@@ -1,40 +1,21 @@
-## CSS - Cascading Style Sheets
+# CSS Positioning
 
-- CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+1. Static Positioning
+   - Default positioning for HTML elements.
+   - Elements flow naturally in the document.
 
-- It allows you to control the layout, colors, fonts, and overall visual appearance of web pages.
+2. Fixed Positioning
+   - Element is positioned relative to the viewport.
+   - Stays in the same place even when the page is scrolled.
 
-### There are three main ways to apply CSS to HTML documents:
+3. Sticky Positioning
+   - Element toggles between relative and fixed based on scroll position.
+   - Sticks to a defined position when scrolling past it.
 
-1. Inline CSS
-2. Internal CSS
-3. External CSS
+4. Relative Positioning
+   - Element is positioned relative to its normal position.
+   - Can be moved using top, right, bottom, and left properties.
 
-The browser has:
-
-1. HTML Parser: Parses the HTML document and creates the DOM (Document Object Model) tree.
-2. CSS Parser: Parses the CSS rules and creates the CSSOM (CSS Object Model) tree.
-3. JavaScript Engine: Executes JavaScript code that can manipulate the DOM and CSSOM.
-
-### CSS Selectors
-
-1. Element Selector: Selects all elements of a specific type.
-2. Class Selector
-   - A same element can have multiple classes.
-   - Multiple elements can share the same class.
-3. ID Selector
-   - An ID should be unique within a page.
-
-### CSS Precedence Order
-
-(From highest to lowest) w.r.t the selector specificity:
-
-1. ID Selector
-2. Class Selector
-3. Element Selector
-
-w.r.t the method of applying CSS:
-
-1. Inline CSS
-2. Internal CSS
-3. External CSS
+5. Absolute Positioning
+   - Element is positioned relative to its nearest positioned ancestor.
+   - Removed from the normal document flow.
