@@ -1,20 +1,19 @@
-body {
-    height: 2000px;
+.box {
+    width: 100px;
+    height: 100px;
 }
 
-/* multiple selectors */
-h1 {
-    position: sticky;
-    top: 0px;
-    background-color: blueviolet;
-    color: white;
-    padding: 10px;
+.green {
+    border: 3px solid green;
+    position: relative;
+    left: 50px;
+    top: 50px;
 }
 
-h2 {
-    position: sticky;
-    top: 57.273px;
-    background-color: chocolate;
-    padding: 10px;
-    color: white;
+.red {
+    border: 3px solid red;
+}
+
+.blue {
+    border: 3px solid blue;
 }
