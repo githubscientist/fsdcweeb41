@@ -2,8 +2,19 @@ body {
     height: 2000px;
 }
 
-#chat {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+/* multiple selectors */
+h1 {
+    position: sticky;
+    top: 0px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    position: sticky;
+    top: 57.273px;
+    background-color: chocolate;
+    padding: 10px;
+    color: white;
 }
