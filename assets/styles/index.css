@@ -1,13 +1,15 @@
-.box {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
     width: 100px;
     height: 100px;
 }
 
 .green {
     border: 3px solid green;
-    position: relative;
-    left: 50px;
-    top: 50px;
 }
 
 .red {
@@ -16,4 +18,21 @@
 
 .blue {
     border: 3px solid blue;
+}
+
+.box4 {
+    position: absolute;
+    left: 300px;
+    top: 418px;
+}
+
+.box5{
+    position: absolute;
+    left: 250px;
+    top: 368px;
+}
+
+.box6{
+    position: relative;
+    left: 200px;
 }
