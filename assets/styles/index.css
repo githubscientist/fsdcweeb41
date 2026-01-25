@@ -1,3 +1,9 @@
-h1 {
-    position: static;
+body {
+    height: 2000px;
+}
+
+#chat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
