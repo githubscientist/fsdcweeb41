@@ -1,21 +1,11 @@
-# CSS Positioning
+# Brute Force Technique
 
-1. Static Positioning
-   - Default positioning for HTML elements.
-   - Elements flow naturally in the document.
+- Brute force is a straightforward approach to solving problems by trying all possible combinations or solutions until the correct one is found. It is often used when there are no efficient algorithms available or when the problem size is small enough to be manageable.
 
-2. Fixed Positioning
-   - Element is positioned relative to the viewport.
-   - Stays in the same place even when the page is scrolled.
+- Brute force is something which we apply after understanding the problem, let's say we have an algorithm in our mind but we are not sure about it, so we can apply brute force to check if our algorithm is correct or not.
 
-3. Sticky Positioning
-   - Element toggles between relative and fixed based on scroll position.
-   - Sticks to a defined position when scrolling past it.
+# Two pointers Technique
 
-4. Relative Positioning
-   - Element is positioned relative to its normal position.
-   - Can be moved using top, right, bottom, and left properties.
+- The two pointers technique is a common algorithmic approach used to solve problems that involve searching or manipulating elements in a data structure, such as an array or a linked list. It involves using two pointers to traverse the data structure simultaneously, often from opposite ends, to achieve a specific goal.
 
-5. Absolute Positioning
-   - Element is positioned relative to its nearest positioned ancestor.
-   - Removed from the normal document flow.
+# Hashing Technique
