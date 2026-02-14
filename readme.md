@@ -1,7 +1,7 @@
 # HTML Basics
 
 [x] HTML Document Structure  
-[ ] Common HTML Elements  
+[x] Common HTML Elements  
 [ ] HTML Forms  
 [ ] Semantic HTML
 
@@ -53,3 +53,33 @@ HTML5 is the latest version of HTML
 ### List Elements
 
 - <ul> (unordered list) and <ol> (ordered list) are used to create lists. Each item in the list is defined using the <li> tag.
+
+### Link Element (<a> </a>)
+
+- This tag is used to create hyperlinks. The href attribute specifies the URL of the page the link goes to.
+
+### Image Element (<img>)
+
+- This tag is used to embed images in the document. The src attribute specifies the path to the image file, and the alt attribute provides alternative text for the image.
+
+### Div Element (<div> </div>)
+
+- This tag is a container for other elements.
+- It is often used to group elements together for styling purposes using CSS or for scripting purposes using JavaScript.
+
+### Span Element (<span> </span>)
+
+- This tag is an inline container for text and other inline elements. It is often used to apply styles to a specific portion of text or to group inline elements together for styling or scripting purposes.
+
+### Table Elements
+
+- <table> is used to create a table. Inside the table, you can use <tr> to define a table row, <th> to define a table header cell, and <td> to define a table data cell.
+
+### Character Entities
+
+- Character entities are used to represent special characters in HTML. For example, &lt; represents the less-than sign (<), &gt; represents the greater-than sign (>), and &amp; represents the ampersand (&), which is used to start character entities.
+
+&nbsp; non breaking space
+&copy; copyright symbol
+&reg; registered trademark symbol
+&trade; trademark symbol
