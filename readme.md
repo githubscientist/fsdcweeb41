@@ -2,8 +2,8 @@
 
 [x] HTML Document Structure  
 [x] Common HTML Elements  
-[ ] HTML Forms  
-[ ] Semantic HTML
+[ ] HTML Forms --pending
+[x] Semantic HTML
 
 ### <!DOCTYPE html>
 
@@ -91,3 +91,9 @@ HTML5 is the latest version of HTML
 ### Iframe Element (<iframe>)
 
 - This tag is used to embed another HTML document within the current document. The src attribute specifies the URL of the page to embed.
+
+### Semantic HTML
+
+- They are used to group content in a meaningful way, making it easier for both developers and browsers to understand the structure of the document. Examples include <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
+
+- These elements help improve accessibility and SEO by providing more context about the content they contain.
