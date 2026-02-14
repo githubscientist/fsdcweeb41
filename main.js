@@ -1,72 +1,95 @@
-// Two Pointers Technique
-// to reverse an array
-// let numbers = [4, 2, 5, 7, 1, 3, 6];
+// hashing technique
+// let s = 'guvigeeks';
 
 /*
-    Problem: To reverse an array in in-place
+    Problem: find all the frequencies of characters in the string
 
-    output:
+    g - 2
+    u - 1
+    v - 1
+    i - 1
+    e - 2
+    k - 1
+    s - 1
 
-    [6, 3, 1, 7, 5, 2, 4]
+    g 2
+    u 1
+    v 1
+    i 1
+    g 2
+    e 2
+    e 2
+    k 1
+    s 1
+*/
+// we have found all the characters count
+// for (let i = 0; i < s.length; i++) {
+//     let count = 0;
+
+//     // find the count for the character s[i]
+//     for (let j = 0; j < s.length; j++) {
+//         if (s[i] == s[j]) count++;
+//     }
+
+//     console.log(s[i], count);
+// }
+
+// get only the unique set of characters and find their counts
+// let s = 'guvigeeks';
+
+/*
+    Set
+
+        - a datastructure
+        - mathematical set operations
+        - defined as a collection of unique elements
 */
 
-// Method 1
-// create another array to copy the elements of numbers in reverse order
-// let reversed = [];
+// let set = new Set(s);
 // let executions = 0;
 
-// for (let i = numbers.length - 1; i >= 0; i--) {
-//     reversed.push(numbers[i]);
-//     executions++;
+// for (let char of set) {
+//     let count = 0;
+
+//     // find the count for the character s[i]
+//     for (let j = 0; j < s.length; j++) {
+//         if (char == s[j]) count++;
+//         executions++;
+//     }
+
+//     console.log(char, count);
 // }
 
-// for (let i = 0; i < reversed.length; i++) {
-//     numbers[i] = reversed[i];
-// }
+// console.log('executions:', executions);
 
+// let's use hashmap to find the number of characters
+let s = 'guvigeeks';
 
-// console.log(reversed);
-// console.log('The number of executions =', executions);
-// console.log(numbers);
+let hashMap = {};
 
-// Method 2
-// two pointers technique
-let numbers = [4, 2, 5, 7, 1, 3, 6];
-
-/*
-    [6, 3, 1, 7, 5, 2, 4]
-    [0][1][2][3][4][5][6]
-
-    left = 4
-    numbers[left] = 
-
-    right = 2
-    numbers[right] = 
-
-    we only swap as long as left < right
-
-    left == right or left > right -> we stop the traversal
-*/
-
-// set two pointers
-// left pointer: points to the starting index
-let left = 0;
-
-// right pointer: points to the ending index
-let right = numbers.length - 1;
-
-let executions = 0;
-
-while (left < right) {
-    // swap the values at left and right indexes
-    [numbers[left], numbers[right]] = [numbers[right], numbers[left]];
-
-    left++;
-    right--;
-
-    executions++;
+for (let i = 0; i < s.length; i++) {
+    hashMap[s[i]] = 0;
 }
 
-console.log(numbers);
+for (let i = 0; i < s.length; i++) {
+    hashMap[s[i]]++;
+}
 
-console.log('the number of executions = ', executions);
+console.log(hashMap);
+
+
+
+/*
+    hashMap = {
+        'g': 2,
+        'u': 1,
+        'v': 1,
+        'i': 1,
+        'e': 2,
+        'k': 1,
+        's': 1
+    }
+    
+    i = 0
+    s[i] = 'g'
+*/
