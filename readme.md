@@ -49,3 +49,7 @@ HTML5 is the latest version of HTML
 ### Inline Elements
 
 - These elements do not start on a new line and only take up as much width as necessary. Examples include <a>, ...
+
+### List Elements
+
+- <ul> (unordered list) and <ol> (ordered list) are used to create lists. Each item in the list is defined using the <li> tag.
