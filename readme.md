@@ -1,27 +1,23 @@
-# Brute Force Technique
+# HTML Basics
 
-- Brute force is a straightforward approach to solving problems by trying all possible combinations or solutions until the correct one is found. It is often used when there are no efficient algorithms available or when the problem size is small enough to be manageable.
+[ ] HTML Document Structure  
+[ ] HTML Forms  
+[ ] Common HTML Elements  
+[ ] Semantic HTML
 
-- Brute force is something which we apply after understanding the problem, let's say we have an algorithm in our mind but we are not sure about it, so we can apply brute force to check if our algorithm is correct or not.
+### <!DOCTYPE html>
 
-# Two pointers Technique
+- This tells the browser that this document is an HTML5 document.
 
-- The two pointers technique is a common algorithmic approach used to solve problems that involve searching or manipulating elements in a data structure, such as an array or a linked list. It involves using two pointers to traverse the data structure simultaneously, often from opposite ends, to achieve a specific goal.
+Versions of HTML:
 
-# Hashing Technique
+- HTML 4.01 (1999)
+- XHTML 1.0 (2000)
+- HTML5 (2014)
 
-- Hashing is a technique used to map data of arbitrary size to fixed-size values, often for the purpose of efficient data retrieval. It involves using a hash function to convert input data into a hash code, which can then be used as an index to store or retrieve the original data in a hash table.
+HTML5 is the latest version of HTML
 
-# Sorting Technique
+### HTML Tag (<html> </html>)
 
-- Sorting is a technique which is used to arrange a list of elements in either ascending or descending order.
-- List of algorithms:
-  - Bubble Sort - O(n^2)
-  - Selection Sort - O(n^2)
-  - Insertion Sort - O(n^2)
-  - Merge Sort - O(n log n)
-  - Quick Sort - O(n^2)
-  - Heap Sort - O(n log n)
-  - Counting Sort - O(n + k) but it still said to be O(n)
-  - Radix Sort - O(n \* k) but it still said to be O(n)
-  - Bucket Sort - O(n + k) but it still said to be O(n)
+- This is the root element of an HTML document. It contains all other elements.
+- html tag is used to mark the beginning and end of an HTML document.
