@@ -83,3 +83,11 @@ HTML5 is the latest version of HTML
 &copy; copyright symbol
 &reg; registered trademark symbol
 &trade; trademark symbol
+
+### Audio and Video Elements
+
+- <audio> is used to embed audio content in the document, and <video> is used to embed video content. Both elements support various attributes for controlling playback, such as controls, autoplay, loop, and muted.
+
+### Iframe Element (<iframe>)
+
+- This tag is used to embed another HTML document within the current document. The src attribute specifies the URL of the page to embed.
