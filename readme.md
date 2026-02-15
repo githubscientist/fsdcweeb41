@@ -103,3 +103,12 @@ HTML5 is the latest version of HTML
 - This tag is used to create an HTML form for user input.
 - Inside the form, you can use various input elements such as <input>, <textarea>, <select>, and <button> to collect different types of user data.
 - The form element also supports attributes like action (specifies where to send the form data) and method (specifies the HTTP method to use when sending the form data, such as GET or POST).
+
+### CSS: Cascading Style Sheets
+
+- CSS is used to style and layout web pages. It allows you to control the appearance of HTML elements, such as their color, font, size, and position.
+
+- CSS can be applied to HTML using one of the three following ways:
+  1. Inline CSS: Using the style attribute directly on an HTML element.
+  2. Internal CSS: Using a <style> tag within the <head> section of the HTML document.
+  3. External CSS: Linking to an external stylesheet using the <link> tag in the <head> section.
