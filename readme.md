@@ -123,3 +123,13 @@ Precedence of CSS: (w.r.t the types of selectors)
 
 1. Among the tag and class selectors, the class selector takes precedence over the tag selector.
 2. Among the tag, class and id selectors, the id selector takes precedence over both the tag and class selectors.
+
+### Box Model: CSS
+
+- The box model is a fundamental concept in CSS that describes how elements are structured and how they interact with each other.
+
+- Each element is represented as a rectangular box, which consists of the following components:
+  1. Content: The actual content of the element (text, images, etc.).
+  2. Padding: The space between the content and the border.
+  3. Border: The line that surrounds the padding and content.
+  4. Margin: The space outside the border that separates the element from other elements.
