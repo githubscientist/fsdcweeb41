@@ -112,3 +112,9 @@ HTML5 is the latest version of HTML
   1. Inline CSS: Using the style attribute directly on an HTML element.
   2. Internal CSS: Using a <style> tag within the <head> section of the HTML document.
   3. External CSS: Linking to an external stylesheet using the <link> tag in the <head> section.
+
+Precedence of CSS:
+
+1. The last defined style takes precedence over earlier styles.
+2. Among the external stylesheet and the internal stylesheet, the internal stylesheet takes precedence over the external stylesheet.
+3. Inline styles take precedence over both internal and external stylesheets.
