@@ -113,8 +113,13 @@ HTML5 is the latest version of HTML
   2. Internal CSS: Using a <style> tag within the <head> section of the HTML document.
   3. External CSS: Linking to an external stylesheet using the <link> tag in the <head> section.
 
-Precedence of CSS:
+Precedence of CSS: (w.r.t the types of applying CSS)
 
 1. The last defined style takes precedence over earlier styles.
 2. Among the external stylesheet and the internal stylesheet, the internal stylesheet takes precedence over the external stylesheet.
 3. Inline styles take precedence over both internal and external stylesheets.
+
+Precedence of CSS: (w.r.t the types of selectors)
+
+1. Among the tag and class selectors, the class selector takes precedence over the tag selector.
+2. Among the tag, class and id selectors, the id selector takes precedence over both the tag and class selectors.
