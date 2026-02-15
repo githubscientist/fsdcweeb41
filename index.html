@@ -4,20 +4,53 @@
         <title>HTML TAGS</title>
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <!-- internal css -->
+        <style>
+            /* differente types of selectors */
+            /* selector: tag selector */
+            /* we are selecting all the h1 tags */
+            /* the tag selectors has to be used only if some definitive styles has to be applied for a specific tag */
+            h1 {
+                color: red;
+                text-align: center;
+            }
+
+            /* p {
+                color: yellow;
+            } */
+
+            /* selector: id selector */
+            #firstChar {
+                color: blue; 
+                font-size: 48px;
+            }
+
+            /* lets say we want to apply a style set to multiple elements in the page */
+            /* class can be assigned to multiple html elements */
+            /* one element can have multiple classes */
+            .italics {
+                font-style: italic;
+            }
+
+            .green {
+                color: green;
+            }
+        </style>
     </head>
 
     <body>
         <!-- inline css -->
-        <h1 style="color: red; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Welcome to the HTML World!</h1>
+        <h1 class="italics">Welcome to the HTML World!</h1>
         <article>
             <p>
-                <span>T</span>he HTML (HyperText Markup Language) is the standard markup
+                <span id="firstChar">T</span>he HTML (HyperText Markup Language) is the standard markup
                 language for creating web pages. It describes the structure of a webpage and consists of various tags that define
                 different elements such as headings, paragraphs, links, images, and more. HTML tags are enclosed in angle brackets (
                 <>) and usually come in pairs, with an opening tag and a closing tag.
             </p>
             
-            <p>
+            <p class="italics green">
                 For example, the p tag is used to define a paragraph, and it is closed
                 with the closing p tag. HTML allows developers to
                 create visually appealing and interactive web pages by combining it with CSS (Cascading Style Sheets) for styling
@@ -30,6 +63,10 @@
                 anyone looking to create websites or web applications. With HTML, you can structure your content, add multimedia
                 elements, and create links to other pages, making it a powerful tool for building the web.
             </p>
+
+            <span class="material-symbols-outlined" style="font-size: 48px; color: red;">
+                favorite
+            </span>
         </article>
     </body>
 </html>
