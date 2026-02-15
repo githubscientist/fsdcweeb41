@@ -2,7 +2,7 @@
 
 [x] HTML Document Structure  
 [x] Common HTML Elements  
-[ ] HTML Forms --pending
+[x] HTML Forms
 [x] Semantic HTML
 
 ### <!DOCTYPE html>
@@ -97,3 +97,9 @@ HTML5 is the latest version of HTML
 - They are used to group content in a meaningful way, making it easier for both developers and browsers to understand the structure of the document. Examples include <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
 
 - These elements help improve accessibility and SEO by providing more context about the content they contain.
+
+### form element (<form> </form>)
+
+- This tag is used to create an HTML form for user input.
+- Inside the form, you can use various input elements such as <input>, <textarea>, <select>, and <button> to collect different types of user data.
+- The form element also supports attributes like action (specifies where to send the form data) and method (specifies the HTTP method to use when sending the form data, such as GET or POST).
