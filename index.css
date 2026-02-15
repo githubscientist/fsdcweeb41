@@ -1,0 +1,18 @@
+/* external css */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+#firstChar {
+    color: blue; 
+    font-size: 48px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.green {
+    color: green;
+}

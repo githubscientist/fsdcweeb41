@@ -2,45 +2,11 @@
 <html>
     <head>
         <title>HTML TAGS</title>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-        <!-- internal css -->
-        <style>
-            /* differente types of selectors */
-            /* selector: tag selector */
-            /* we are selecting all the h1 tags */
-            /* the tag selectors has to be used only if some definitive styles has to be applied for a specific tag */
-            h1 {
-                color: red;
-                text-align: center;
-            }
-
-            /* p {
-                color: yellow;
-            } */
-
-            /* selector: id selector */
-            #firstChar {
-                color: blue; 
-                font-size: 48px;
-            }
-
-            /* lets say we want to apply a style set to multiple elements in the page */
-            /* class can be assigned to multiple html elements */
-            /* one element can have multiple classes */
-            .italics {
-                font-style: italic;
-            }
-
-            .green {
-                color: green;
-            }
-        </style>
+        <!-- external style sheet linking -->
+        <link rel="stylesheet" href="./index.css">
     </head>
 
     <body>
-        <!-- inline css -->
         <h1 class="italics">Welcome to the HTML World!</h1>
         <article>
             <p>
@@ -63,10 +29,6 @@
                 anyone looking to create websites or web applications. With HTML, you can structure your content, add multimedia
                 elements, and create links to other pages, making it a powerful tool for building the web.
             </p>
-
-            <span class="material-symbols-outlined" style="font-size: 48px; color: red;">
-                favorite
-            </span>
         </article>
     </body>
 </html>
