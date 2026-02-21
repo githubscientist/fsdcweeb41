@@ -133,3 +133,21 @@ Precedence of CSS: (w.r.t the types of selectors)
   2. Padding: The space between the content and the border.
   3. Border: The line that surrounds the padding and content.
   4. Margin: The space outside the border that separates the element from other elements.
+
+### charset UTF-8
+
+- This meta tag specifies the character encoding for the HTML document.
+- UTF-8 is a widely used character encoding that can represent almost all characters in the Unicode standard, making it suitable for internationalization and supporting a wide range of languages and symbols.
+
+### CSS Positioning
+
+There are 5 types of CSS positioning:
+
+1. Static Positioning:
+
+- This is the default positioning for all elements. Elements are positioned according to the normal flow of the document.
+
+2. Fixed Positioning
+3. Sticky Positioning
+4. Relative Positioning
+5. Absolute Positioning
