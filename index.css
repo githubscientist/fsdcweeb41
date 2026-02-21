@@ -9,19 +9,26 @@ body {
     border: 2px solid black;
 }
 
+.small {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
 .red {
     background-color: red;
-    color: white;
 }
 
 .green {
     background-color: green;
-    color: white;
 }
 
 .blue {
     background-color: blue;
-    color: white;
+}
+
+.orange {
+    background-color: orange;
 }
 
 .box1 {
@@ -39,4 +46,32 @@ body {
     position: absolute;
     top: 150px;
     left: 150px;
+}
+
+/* .box4 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+} */
+
+.box4 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.chocolate {
+    background-color: chocolate;
+}
+
+/* .box5 {
+    position: relative;
+    top: 37.5px;
+    left: 67.5px;
+} */
+
+.box5 {
+    position: absolute;
+    top: 37.5px;
+    left: 67.5px;
 }
