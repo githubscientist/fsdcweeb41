@@ -158,4 +158,13 @@ There are 5 types of CSS positioning:
 - Elements with sticky positioning are positioned based on the user's scroll position. They toggle between relative and fixed positioning depending on the scroll position.
 
 4. Relative Positioning
+
+- Elements with relative positioning are positioned relative to their normal position in the document flow.
+- We can use top, bottom, left, and right properties to adjust the position of the element from its normal position.
+- The space for the element is still reserved in the normal flow of the document, even if it is moved from its original position.
+
 5. Absolute Positioning
+
+- Elements with absolute positioning are positioned relative to the nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, they are positioned relative to the initial containing block (usually the viewport).
+- We can use top, bottom, left, and right properties to specify the position of the element.
+- The space for the element is not reserved in the normal flow of the document, and it can overlap with other elements.
