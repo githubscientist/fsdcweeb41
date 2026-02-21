@@ -146,8 +146,13 @@ There are 5 types of CSS positioning:
 1. Static Positioning:
 
 - This is the default positioning for all elements. Elements are positioned according to the normal flow of the document.
+- We cannot use top, bottom, left, or right properties with static positioning.
 
 2. Fixed Positioning
+
+- Elements with fixed positioning are positioned relative to the viewport, which means they stay in the same place even when the page is scrolled.
+- We can use top, bottom, left, and right properties to specify the position of the element.
+
 3. Sticky Positioning
 4. Relative Positioning
 5. Absolute Positioning

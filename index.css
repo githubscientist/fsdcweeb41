@@ -1,3 +1,5 @@
-#spaghettiCarbonara {
-    position: static;
+h1 {
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
