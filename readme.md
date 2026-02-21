@@ -154,5 +154,8 @@ There are 5 types of CSS positioning:
 - We can use top, bottom, left, and right properties to specify the position of the element.
 
 3. Sticky Positioning
+
+- Elements with sticky positioning are positioned based on the user's scroll position. They toggle between relative and fixed positioning depending on the scroll position.
+
 4. Relative Positioning
 5. Absolute Positioning
