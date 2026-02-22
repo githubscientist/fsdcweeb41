@@ -60,7 +60,6 @@ body {
 .logo {
     position: fixed;
     left: 50px;
-
 }
 
 .header {
@@ -86,6 +85,16 @@ body {
     .navlist {
         display: none;
     }
+
+    .imageBlock > img {
+        width: 300px;
+    }
+
+    .imageBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* @media (max-width: 991px) and (orientation: portrait) {
@@ -93,3 +102,36 @@ body {
         display: none;
     }
 } */
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+}
+
+@media (min-width: 320px) {
+    .edtech {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 991px) {
+    .edtech {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .edtech {
+        margin: 0px 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
