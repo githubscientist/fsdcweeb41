@@ -67,11 +67,29 @@ body {
     height: 80px;
 }
 
-/* all the above styles would be applied when the device size is 992px or more */
+#navicon {
+    position: fixed;
+    left: 5px;
+    font-size: 36px;
+}
 
-/* this is from 0px to 991px */
-@media (max-width: 991px){
+@media (min-width: 992px){
+    #navicon {
+        display: none;
+    }
+}
+
+/* all the above styles would be applied to all the device sizes */
+
+/* the following styles would be applied to the device size 0px to 991px */
+@media (max-width: 991px) {
     .navlist {
         display: none;
     }
 }
+
+/* @media (max-width: 991px) and (orientation: portrait) {
+    .navlist {
+        display: none;
+    }
+} */
