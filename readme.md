@@ -168,3 +168,13 @@ There are 5 types of CSS positioning:
 - Elements with absolute positioning are positioned relative to the nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, they are positioned relative to the initial containing block (usually the viewport).
 - We can use top, bottom, left, and right properties to specify the position of the element.
 - The space for the element is not reserved in the normal flow of the document, and it can overlap with other elements.
+
+### Responsive Web Design
+
+- Responsive web design is an approach to web design that aims to create websites that provide an optimal viewing experience across a wide range of devices, from desktop computers to mobile phones.
+
+- It involves using flexible layouts, images, and CSS media queries to adapt the design and layout of the website based on the screen size and orientation of the device being used to view it.
+
+### flexbox
+
+- Flexbox is a CSS layout module that provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic.

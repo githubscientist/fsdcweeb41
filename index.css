@@ -1,11 +1,77 @@
-.hero-header > h3 {
-    position: absolute;
-    top: 140px;
-    left: 20px;
+.navlist > li > a {
+    /* remove the underlines from a tags */
+    text-decoration: none;
+    color: black;
 }
 
-.hero-header > img {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.2;
+.navlist > li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.navlist > li:hover {
+    border: 1px solid #058834;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ECFEF2;
+}
+
+.navlist {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* gap: 30px; */
+    /* justify-content: center; */
+}
+
+.navlist > li {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist > li > svg {
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.navlist > li:hover svg {
+    transform: rotate(-180deg);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    border: 1px solid white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    position: fixed;
+    left: 50px;
+
+}
+
+.header {
+    height: 80px;
+}
+
+/* all the above styles would be applied when the device size is 992px or more */
+
+/* this is from 0px to 991px */
+@media (max-width: 991px){
+    .navlist {
+        display: none;
+    }
 }
