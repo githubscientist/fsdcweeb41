@@ -178,3 +178,42 @@ There are 5 types of CSS positioning:
 ### flexbox
 
 - Flexbox is a CSS layout module that provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic.
+
+### Mobile First Approach
+
+- Initially before few years, the desktop users were more than the mobile users, so the websites were designed for desktop users first and then adapted for mobile users. But now, the number of mobile users has surpassed the number of desktop users, so the mobile-first approach is becoming more popular. In this approach, the website is designed for mobile users first and then adapted for desktop users. This approach ensures that the website is optimized for mobile devices and provides a better user experience for mobile users.
+
+To achieve this:
+
+1. Start by designing the layout and content for the smallest screen size (mobile devices).
+2. Use CSS media queries to apply different styles for larger screen sizes (tablets and desktops).
+
+Breakpoints are the specific screen widths at which the layout of the website changes to accommodate different device sizes. Common breakpoints include:
+
+- 320px (small mobile devices)
+- 480px (large mobile devices)
+- 768px (tablets)
+- 1024px (small desktops)
+- 1200px (large desktops)
+
+<!-- all the devices styles -->
+
+@media (min-width: 320px){
+/_ Styles for small mobile devices _/
+}
+
+@media (min-width: 480px){
+/_ Styles for large mobile devices _/
+}
+
+@media (min-width: 768px){
+/_ Styles for tablets _/
+}
+
+@media (min-width: 1024px){
+/_ Styles for small desktops _/
+}
+
+@media (min-width: 1200px){
+/_ Styles for large desktops _/
+}
