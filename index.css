@@ -1,137 +1,67 @@
-.navlist > li > a {
-    /* remove the underlines from a tags */
-    text-decoration: none;
-    color: black;
-}
-
-.navlist > li {
-    list-style-type: none;
-    padding: 10px;
-    border: 1px solid white;
-}
-
-.navlist > li:hover {
-    border: 1px solid #058834;
-    padding: 10px;
-    border-radius: 4px;
-    background-color: #ECFEF2;
-}
-
-.navlist {
-    display: flex;
-    /* flex-direction: row; */
-    /* flex-direction: column; */
-    /* gap: 30px; */
-    /* justify-content: center; */
-}
-
-.navlist > li {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.navlist > li > svg {
-    display: inline-block;
-    transition: transform 0.4s ease;
-}
-
-.navlist > li:hover svg {
-    transform: rotate(-180deg);
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 5px;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #55D5EE;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
+.sidebar {
+    background-color: #A1C362;
+}
+
+.main {
+    background-color: #F5C531;
+}
+
+.extra {
+    background-color: #8B898B;
+}
+
+.footer {
+    background-color: #FFA500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .header {
-    border: 1px solid white;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    grid-column: 1 / 5;
 }
 
-.logo {
-    position: fixed;
-    left: 50px;
-}
-
-.header {
-    height: 80px;
-}
-
-#navicon {
-    position: fixed;
-    left: 5px;
-    font-size: 36px;
-}
-
-@media (min-width: 992px){
-    #navicon {
-        display: none;
-    }
-}
-
-/* all the above styles would be applied to all the device sizes */
-
-/* the following styles would be applied to the device size 0px to 991px */
-@media (max-width: 991px) {
-    .navlist {
-        display: none;
-    }
-
-    .imageBlock > img {
-        width: 300px;
-    }
-
-    .imageBlock {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/* @media (max-width: 991px) and (orientation: portrait) {
-    .navlist {
-        display: none;
-    }
+/* .sidebar {
+    grid-column: 1 / 2;
 } */
 
-.textBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.main {
+    grid-column: 2 / 5;
+    /* height: auto; */
+    /* height: 300px; */
 }
 
-.header {
-    position: sticky;
-    top: 0px;
+.extra {
+    grid-column: 2 / 5;
 }
 
-@media (min-width: 320px) {
-    .edtech {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+.sidebar {
+    grid-row: 2 / 4;
 }
 
-@media (min-width: 480px) and (max-width: 991px) {
-    .edtech {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+.footer {
+    grid-column: 1 / 5;
 }
 
-@media (min-width: 992px) {
-    .edtech {
-        margin: 0px 50px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+.main {
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.hello {
+    grid-row: 1 / 3;
 }
