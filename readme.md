@@ -217,3 +217,13 @@ Breakpoints are the specific screen widths at which the layout of the website ch
 @media (min-width: 1200px){
 /_ Styles for large desktops _/
 }
+
+### Library Vs Framework
+
+- A library is a collection of pre-written code that can be used to perform specific tasks.
+
+- A framework is a collection of libraries and tools which has a specific structure and guidelines for building applications.
+
+### Tailwind CSS
+
+- Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined classes for styling HTML elements.
