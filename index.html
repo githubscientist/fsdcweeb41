@@ -9,9 +9,16 @@
     <body>
         <div class="grid grid-cols-4 my-8 mx-4 gap-2">
             <div class="border p-4 bg-[#58D5F1] col-start-1 col-end-5">Header</div>
+
             <div class="border p-4 bg-[#A2C463] row-start-2 row-end-4">Sidebar</div>
-            <div class="border p-4 bg-[#F6C634] col-start-2 col-end-5">Main</div>
+
+            <div class="border p-4 bg-[#F6C634] col-start-2 col-end-5 flex flex-row gap-1">
+                <div class="border p-2 grow-1">NestedSidebar</div>
+                <div class="border p-2 grow-2">NestedMain</div>
+                <div class="border p-2 grow-1">NestedExtra</div>
+            </div>
             <div class="border p-4 bg-[#8E898D] col-start-2 col-end-5">Extra</div>
+
             <div class="border p-4 bg-[#FFA500] col-start-1 col-end-5">Footer</div>
         </div>
     </body>
