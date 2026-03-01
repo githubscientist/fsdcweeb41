@@ -6,20 +6,86 @@
         <title>Tailwind CSS</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body>
-        <div class="grid grid-cols-4 my-8 mx-4 gap-2">
-            <div class="border p-4 bg-[#58D5F1] col-start-1 col-end-5">Header</div>
+    <body class="font-[inter] mx-auto max-w-screen">
+        <div class="bg-white text-slate-800 min-h-screen">
+            <header class="px-4 my-4 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5">
+                <!-- logo -->
+                <div class="flex justify-center items-center">
+                    <img src="./assets/images/logo.png" alt="logo" class="max-w-32">
+                </div>
+                
+                <!-- navbar + register now button -->
+                <div class="flex flex-wrap gap-3 md:col-start-2 md:col-end-4 lg:col-start-4 lg:col-end-7 justify-center items-center">
+                    <div>
+                        <ul class="flex gap-5">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Community</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="bg-[#4CAF4F] border-1 border-black shadow-lg hover:shadow-xl px-4 py-2 text-white">
+                            Register Now 
+                            <span class="inline-block text-white">
+                                <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.30002 6.55017L11.7698 4.08044C12.0627 3.78754 12.0627 3.31265 11.7698 3.01975L9.30002 0.550016M11.5501 3.55009L0.549805 3.55009"
+                                        stroke="white" stroke-width="1.1" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </header>
 
-            <div class="border p-4 bg-[#A2C463] row-start-2 row-end-4">Sidebar</div>
+            <section class="bg-[#F5F7FA] py-16 grid grid-cols-6">
+                <div class="col-start-1 col-end-4 mx-auto my-auto">
+                    <div class="mb-5">
+                        <h1 class="text-5xl font-medium">
+                            Lessons and insights
+                            <br /><span class="text-[#4CAF4F]">from 8 years</span>
+                        </h1>
+                    </div>
+                    <div class="mb-5">
+                        <p class="font-thin text-sm">Where to grow your business as a photographer: site or social media?</p>
+                    </div>
+                    <div>
+                        <button class="bg-[#4CAF4F] border-1 border-black shadow-lg hover:shadow-xl px-4 py-2 text-white">
+                            Register Now
+                        </button>
+                    </div>
+                </div>
 
-            <div class="border p-4 bg-[#F6C634] col-start-2 col-end-5 grid grid-cols-3 gap-1">
-                <div class="border p-2 grow-1 row-start-1 row-end-3">NestedSidebar</div>
-                <div class="border p-2 grow-2 col-start-2 col-end-4">NestedMain</div>
-                <div class="border p-2 grow-1 col-start-2 col-end-4">NestedExtra</div>
+                <div class="col-start-4 col-end-7">
+                    <img src="./assets/images/illustration.png" alt="illustration" width="416px">
+                </div>
+            </section>
+
+            <div class="relative">
+                <section class="flex gap-2 justify-center relative top-[-32px]">
+                    <svg width="12" height="12" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="1.66933" cy="1.66933" r="1.66933" fill="#4CAF4F" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.3" cx="1.66933" cy="1.66933" r="1.66933" fill="#4CAF4F" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.3" cx="1.66933" cy="1.66933" r="1.66933" fill="#4CAF4F" />
+                    </svg>
+                </section>
             </div>
-            <div class="border p-4 bg-[#8E898D] col-start-2 col-end-5">Extra</div>
-
-            <div class="border p-4 bg-[#FFA500] col-start-1 col-end-5">Footer</div>
         </div>
     </body>
 </html>
