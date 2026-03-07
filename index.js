@@ -1,16 +1,11 @@
-// window -> refers to the browser's window.
-// window.location.href = 'https://guvi.in';
+let header = document.getElementById("header");
 
-// console.log(window.document); // refers to the html document
+// header.setAttribute('class', 'red');
+// header.classList.add("green");
 
-// read or access html elements in javascript
+// header.classList.remove('green');
+// header.classList.add('red');
 
-let listItems = window.document.getElementsByTagName('ul')[0].children;
+// header.classList.add('hide');
 
-// for (let i = 0; i < listItems.length; i++) {
-//     console.log(listItems[i].textContent);
-// }
-
-for (let i = 0; i < listItems.length; i++) {
-    listItems[i].textContent = 'Coffee';
-}
+console.log(header.textContent);
