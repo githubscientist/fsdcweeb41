@@ -1,3 +1,13 @@
-console.log(document.querySelectorAll("h1")); // by tagname
-// console.log(document.querySelectorAll("#headerID")); // by id
-// console.log(document.querySelectorAll('.header')); // by class name
+let header = document.createElement("h1");
+
+header.textContent = "Hello, World!";
+
+document.body.appendChild(header);
+
+let paragraph = document.createElement("p");
+
+paragraph.textContent = "Welcome to DOM World!";
+
+document.body.appendChild(paragraph);
+
+header.style.color = 'green';
