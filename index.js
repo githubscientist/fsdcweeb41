@@ -1,11 +1,15 @@
+// get all the references
 let header = document.getElementById("header");
+let showButton = document.getElementById("showButton");
+let hideButton = document.getElementById("hideButton");
 
-// header.setAttribute('class', 'red');
-// header.classList.add("green");
+// add an event listener
+showButton.addEventListener('click', () => {
+    header.classList.add('show');
+    header.classList.remove('hide');
+});
 
-// header.classList.remove('green');
-// header.classList.add('red');
-
-// header.classList.add('hide');
-
-console.log(header.textContent);
+hideButton.addEventListener('click', () => {
+    header.classList.remove('show');
+    header.classList.add('hide');
+})
