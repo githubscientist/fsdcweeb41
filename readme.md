@@ -227,3 +227,7 @@ Breakpoints are the specific screen widths at which the layout of the website ch
 ### Tailwind CSS
 
 - Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined classes for styling HTML elements.
+
+### DOM
+
+- The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree of objects, where each object corresponds to an element in the document.
