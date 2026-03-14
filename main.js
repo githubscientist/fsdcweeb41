@@ -265,6 +265,7 @@
 // }
 
 // console.log(person);
-import { number, sum } from './refs.js';
+// import { number, sum } from './refs.js';
 
-sum(5, 6);
+// sum(5, 6);
+
