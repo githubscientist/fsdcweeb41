@@ -1,6 +1,5 @@
-let x: number = 5;
+let score: number = 96;
+let username: string = 'sathish';
+let isActive: boolean = true;
 
-x = 'ten';
-
-console.log('the value of x is', x);
-console.log('data type of x is', typeof x);
+console.log(score, username, isActive);
