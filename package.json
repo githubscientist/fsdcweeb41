@@ -1,0 +1,23 @@
+{
+  "name": "fsdcweeb41",
+  "version": "1.0.0",
+  "description": "## JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubscientist/fsdcweeb41.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubscientist/fsdcweeb41/issues"
+  },
+  "homepage": "https://github.com/githubscientist/fsdcweeb41#readme"
+}

@@ -1,4 +1,4 @@
-var score = 96;
-var username = 'sathish';
-var isActive = true;
+import vars from './lib.js';
+let { score, username, isActive } = vars;
 console.log(score, username, isActive);
+//# sourceMappingURL=main.js.map

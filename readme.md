@@ -12,3 +12,19 @@
 - Browsers can only understand and execute JavaScript, so TypeScript needs to be transpiled to JavaScript before it can run in a browser.
 - TypeScript is often used in larger projects or when working with teams, as it can help improve code maintainability and readability.
 - TypeScript is developed and maintained by Microsoft, while JavaScript is an open standard that is implemented by various organizations and developers.
+
+To initialize a TypeScript project, you can use the following command in your terminal:
+
+```bash
+tsc --init
+```
+
+output: tsconfig.json file will be created in the root directory of your project.
+
+To initialize a npm application, you can use the following command:
+
+```bash
+npm init -y
+```
+
+output: package.json file will be created in the root directory of your project.
