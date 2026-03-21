@@ -1,0 +1,4 @@
+let x:number = 5;
+
+console.log('the value of x is', x);
+console.log('data type of x is', typeof x);
