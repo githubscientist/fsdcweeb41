@@ -1,5 +1,11 @@
-// union operator
-let fruits: (string | number | boolean)[] = ["apple", "orange", "cherry", 5, 6, true];
-// using any more should be avoided
+enum Rating {
+    low = 1,
+    good,
+    average,
+    best,
+    excellent
+}
 
-console.log(fruits);
+let user_rating: Rating = Rating.excellent;
+
+console.log(user_rating);
