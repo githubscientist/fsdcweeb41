@@ -58,3 +58,18 @@ Data Types in TypeScript include:
 }`
 - `null` and `undefined`: Represents the absence of a value. Example: `let value: null = null;`
 - `object`: Represents a non-primitive type. Example: `let person: object = { name: "Alice", age: 25 };`
+
+Exercises:
+
+1. Create variables with correct types:
+
+name -> string
+age -> number
+isStudent -> boolean
+marks -> array of numbers
+
+2. Create a student object with properties name (string), age (number).
+
+3. Create a tuple to represent a person's name (string) and age (number). Push a new value 56 to the tuple. update the value at the first index of the tuple to "John".
+
+4. Create an enum to represent the days of the week. Assign values to each day and log the value of a specific day to the console.
