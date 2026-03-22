@@ -1,11 +1,13 @@
-enum Rating {
-    low = 1,
-    good,
-    average,
-    best,
-    excellent
+let user: {
+    name: string,
+    role: string,
+    salary: (string | number),
+    location: string
+} = {
+    name: "krish",
+    role: "engineer",
+    salary: 100000,
+    location: "India"
 }
 
-let user_rating: Rating = Rating.excellent;
-
-console.log(user_rating);
+console.log(user);
