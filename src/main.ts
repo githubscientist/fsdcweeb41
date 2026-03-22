@@ -1,6 +1,7 @@
-let score: number = 96;
-let username: string = 'sathish';
-let isActive: boolean = true;
+// type inference
+// the type of the variable is determined when we assign a value to the variable
+let score;
 
-// assigning a variable with some other type value throws error
-score = 'ninety six';
+score = 'thirty four';
+
+console.log(score);

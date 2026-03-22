@@ -1,7 +1,5 @@
-let score = 96;
-let username = 'sathish';
-let isActive = true;
-// assigning a variable with some other type value throws error
-score = 'ninety six';
+let score = 34;
+score = 'thirty four';
+console.log(score);
 export {};
 //# sourceMappingURL=main.js.map
