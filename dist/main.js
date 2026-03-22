@@ -1,4 +1,7 @@
-import vars from './lib.js';
-let { score, username, isActive } = vars;
-console.log(score, username, isActive);
+let score = 96;
+let username = 'sathish';
+let isActive = true;
+// assigning a variable with some other type value throws error
+score = 'ninety six';
+export {};
 //# sourceMappingURL=main.js.map

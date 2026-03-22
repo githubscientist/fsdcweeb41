@@ -1,5 +1,6 @@
-import vars from './lib.js';
+let score: number = 96;
+let username: string = 'sathish';
+let isActive: boolean = true;
 
-let { score, username, isActive } = vars;
-
-console.log(score, username, isActive);
+// assigning a variable with some other type value throws error
+score = 'ninety six';
