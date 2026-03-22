@@ -1,9 +1,5 @@
-let numbers: [string, string, number];
+// union operator
+let fruits: (string | number | boolean)[] = ["apple", "orange", "cherry", 5, 6, true];
+// using any more should be avoided
 
-numbers = ["apple", "orange", 56];
-
-numbers.push("cherry");
-
-// numbers.push("cherry"); // this is not recommended because it is violating the tuple behaviour
-
-numbers.forEach(number => console.log(number));
+console.log(fruits);

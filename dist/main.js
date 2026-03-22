@@ -1,6 +1,6 @@
-let numbers;
-numbers.push("cherry");
-// numbers.push("cherry"); // this is not recommended because it is violating the tuple behaviour
-numbers.forEach(number => console.log(number));
+// union operator
+let fruits = ["apple", "orange", "cherry", 5, 6, true];
+// using any more should be avoided
+console.log(fruits);
 export {};
 //# sourceMappingURL=main.js.map
