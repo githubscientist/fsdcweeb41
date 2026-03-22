@@ -1,7 +1,3 @@
-// type inference
-// the type of the variable is determined when we assign a value to the variable
-let score;
+let numbers: string[] = ["apple", "banana", "orange"]
 
-score = 'thirty four';
-
-console.log(score);
+numbers.forEach(number => console.log(number));

@@ -28,3 +28,33 @@ npm init -y
 ```
 
 output: package.json file will be created in the root directory of your project.
+
+## Variables
+
+Typescript variables should be declared with a type annotation, which specifies the type of value that the variable can hold. For example:
+
+```typescript
+let name: string = "John";
+let age: number = 30;
+```
+
+Data Types in TypeScript include:
+
+- `string`: Represents textual data. Example: `let name: string = "Alice";`
+- `number`: Represents numeric values. Example: `let age: number = 25;`
+- `boolean`: Represents true or false values. Example: `let isStudent: boolean = true;`
+- `array`: Represents a collection of values. Example: `let numbers: number[] = [1, 2, 3];`
+- `tuple`: Represents an array with fixed number of elements of different types. Example: `let person: [string, number] = ["Alice", 25];`
+- `enum`: Represents a set of named constants. Example:
+  ````typescript enum Color {
+    Red,
+    Green,
+    Blue
+  } ```
+  ````
+- `any`: Represents any type of value. Example: `let data: any = "Hello";`
+- `void`: Represents the absence of a value. Example: `function greet(): void {
+  console.log("Hello!");
+}`
+- `null` and `undefined`: Represents the absence of a value. Example: `let value: null = null;`
+- `object`: Represents a non-primitive type. Example: `let person: object = { name: "Alice", age: 25 };`
