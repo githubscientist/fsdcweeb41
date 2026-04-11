@@ -1,11 +1,8 @@
-// let name: string = 'sathish';
-// using function prototyping
-function Student(name, age, course) {
-    this.name = name;
-    this.age = age;
-    this.course = course;
+// functions in typescript
+function add(x, y) {
+    return x + y;
 }
-let student101 = new Student('sathish', 35, 'FSD');
-console.log(student101);
+let sum = add(5, 6);
+console.log(sum);
 export {};
 //# sourceMappingURL=main.js.map
